@@ -28,7 +28,7 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
+    title: "Some of my tech stack",
     description: "I constantly try to improve",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -73,41 +73,36 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "ConnectInk",
-    des: "The app allows tattoo artists to showcase their art, availability, and services, while clients can explore profiles, appreciate artwork, and easily and securely book appointments.",
-    img: "/connectink.png",
-    iconLists: [
-      "/next.svg",
-      "/tail.svg",
-      "/javascript.svg",
-      "/nodejs.svg",
-      "/redux.svg",
-    ],
-    link: "https://connectink.vercel.app/",
+    title: "Gower",
+    des: "Full-stack application developed for a car rental company in Mendoza that connects vehicle owners with clients. The platform features a dynamic catalog of available cars based on selected dates, generates real-time price quotations, and allows users to complete reservations through an integrated form. Contracts are automatically sent to both parties, and the entire system is connected to Google Sheets, which functions as a lightweight database to store pricing, availability, and vehicle details. We built both the backend and frontend, achieving a seamless and efficient reservation flow.",
+    img: "/gower2.png",
+    iconLists: ["/re.svg", "/tail.svg", "/javascript.svg", "/nodejs.svg"],
+    link: "https://gower.ar/",
   },
   {
     id: 2,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://apple-i-phone15-alpha.vercel.app/",
+    title: "Colegio de Abogados de Mendoza",
+    des: "Official full-stack website for the Bar Association of Mendoza. The platform provides public access to professional directories, institutional information, edict publications, and online payments through MercadoPago, including fixed legal fees. It also includes a complete administration panel where authorized users can manage content, upload professionals, view receipts, and configure different features of the site. This project ensures a modern, user-friendly experience for both members of the association and the general public.",
+    img: "/colejus.png", // guarda esta imagen en /public
+    iconLists: ["/re.svg", "/tail.svg", "/python.png"], // puedes agregar un icono de MP si lo tenés
+    link: "https://colejus.com.ar/",
   },
+
   {
     id: 3,
-    title: "Quiz App",
-    des: "This application is a quiz on multiple topics divided by categories with questions related to general culture.",
-    img: "/quizapp.png",
-    iconLists: ["/re.svg", "/tail.svg", "/nodejs.svg", "/javascript.svg"],
-    link: "https://cuestionario-lemon.vercel.app/",
+    title: "Vand",
+    des: "Responsive landing page for Vand, an Argentine company dedicated to agrochemicals, water treatments, antifoams, and related products. The site presents multiple views with information about the company and its product portfolio, while featuring a functional contact form that allows potential clients to send inquiries directly via email. The design emphasizes clarity and accessibility to ensure a smooth user experience across devices.",
+    img: "/vand.png", // guardá la imagen en /public
+    iconLists: ["/re.svg", "/tail.svg", "/nodejs.svg"], // ajustá según tu stack real
+    link: "https://www.vandpq.com.ar/", // si tenés un deploy o demo online, actualizá este link
   },
   {
     id: 4,
-    title: "Food Delivery Dashboard",
-    des: "100% responsive design for a possible food delivery app with a user-friendly design",
-    img: "/fooddash.png",
-    iconLists: ["/re.svg", "/tail.svg", "/javascript.svg"],
-    link: "https://dashboard-store-1-vert.vercel.app/",
+    title: "IPL",
+    des: "Robust full-stack application built for IPL, a company managing multiple warehouses. The platform includes user authentication, a structured database, and an admin panel to control the companies operating within the system. Each company can manage stock reception, create and track orders, register products, and perform batch-based stock counts to verify inventory accuracy. The app also allows task assignment to operators, such as preparing orders or handling shipments, among other advanced features. The project required implementing complex business logic to ensure reliability and scalability.",
+    img: "/ipl.png", // guardá la imagen en /public
+    iconLists: ["/re.svg", "/tail.svg", "/nodejs.svg", "/python.png"], // podés ajustar los íconos según el stack real
+    link: "http://34.69.242.24/", // si tenés demo o repo online, poné el link aquí
   },
 ];
 
@@ -180,29 +175,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Freelance Frontend Developer",
+    desc: "Worked closely with a marketing specialist building responsive landing pages for different companies, focusing on modern design, usability, and conversion optimization.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "FullStack Dev",
-    desc: "I have collaborated on full-stack projects, utilizing both front-end and back-end technologies to deliver comprehensive solutions.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Full-Stack Developer",
+    desc: "Currently working at a software development and automation company, where I design and implement full-stack applications, APIs, and frontend interfaces. My work also includes integrating AI into web platforms and managing deployments.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Freelance Projects",
+    desc: "Developed several custom applications from concept to deployment, gaining experience in client communication, requirements analysis, and delivery of end-to-end solutions.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Continuous Learning & Growth",
+    desc: "Passionate about technology and self-improvement. I constantly learn new tools, frameworks, and best practices, applying them to real-world projects and expanding my skill set every day.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

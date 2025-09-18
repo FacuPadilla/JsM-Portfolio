@@ -48,8 +48,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NextJS", "GraphQL"];
+  const leftLists = ["ReactJS", "Python Flask", "JavaScript"];
+  const rightLists = ["MySQL", "NextJS", "GraphQL"];
   const handleCopy = () => {
     navigator.clipboard.writeText("facupadilla1904@gmail.com");
 
