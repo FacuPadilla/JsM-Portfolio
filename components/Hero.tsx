@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
@@ -35,7 +36,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">
-            Hi, I&apos;m Facundo José Padilla a Next js Developer based in
+            Hi, I&apos;m Facundo José Padilla a FullStack Developer based in
             Argentina
           </p>
           <div className="mb-5">
